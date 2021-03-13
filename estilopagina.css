@@ -1,0 +1,193 @@
+@charset "UTF-8";       /*especifica o tipo de carateres que o site irá supor, no nosso caso o pro portugues do brasil, 'utf8'   */
+
+@font-face {
+    font-family: 'fontepessoal';
+    src: url("./bubblegum-sans-regular.otf");
+}
+  
+body {
+    background-color: black; /* cor cinza claro apra o fundo da página web*/
+    font-family: Arial, sans-serif;  /*define o tipo de letra presente nos conteudos textuais  */ 
+    font-size: 1.5em;
+}
+
+div.interface {
+    width: 1100px;
+    background-color:greenyellow;
+    margin: 20px auto 20px auto;
+    box-shadow: 10px 10px 10px rgb(209, 40, 209);
+    padding: 40px;
+    border-radius: 40px;
+    color: black;
+}
+
+/*formatação especifica para todos os elementos <p>  */
+p {
+    text-align: justify; /*o texto está justicado, com espaço de solta de começo de paragrafo etc*/
+    text-indent: 50px;  /*  dá um certo espaço vazio para iniciar os paragrafos*/
+}
+
+header.cabecalho {
+    border-bottom: 10px rgb(209, 40, 209) double;
+    height: 300px;
+}
+
+header.cabecalho h1 {
+    font-family: 'fontepessoal', sans-serif;
+    font-size:  80pt;
+    color: rgb(209, 40, 209);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.705);
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header.cabecalho h2 {
+    font-family: 'fontepessoal', sans-serif;
+    font-size: 35pt;
+    color: rgb(209, 40, 209);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+    padding: 0px;
+    text-align: center;
+}
+
+img#programadorweb {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 100px
+} 
+
+nav.menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+}
+
+nav.menu ul {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+nav.menu li {
+    display: inline-block;
+    font-family: 'fontepessoal', sans-serif;
+    font-size:  20pt;
+    background-color: rgb(209, 40, 209);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 7px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+a:hover  {
+    color:white;
+}
+
+h3 {
+    font-family: 'fontepessoal', sans-serif;
+    font-size: 20pt;
+    color: rgb(209, 40, 209);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+}
+
+section#corpo {
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 10px rgb(209, 40, 209) double;
+    padding-right: 60px;
+}
+
+div#apresentacao p {
+    width: 700px;
+    margin: 10px 70px 10px 70px;
+    padding: 10px 50px 10px 50px;
+}
+
+ul#fotos li, p {
+    text-align: center;
+    list-style: none;
+}
+
+dt {
+    font-weight: bold;
+    color: rgb(209, 40, 209);
+}
+
+aside#lateral {
+    display: block;
+    width: 300px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+footer#rodape {
+    clear: both;
+    padding-top: 20px;
+    border-top: 10px rgb(209, 40, 209) double;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+form#falecomigo {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: rgb(209, 40, 209);
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 30pt;
+    text-align: center;
+}
+
+form#falecomigo button {
+    width: 150px;
+    height: 100px;
+    font-size: 30pt;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+
+figure {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+figure img {
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+figure p {
+    font-weight: bolder;
+}
+
+
